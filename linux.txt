@@ -1,0 +1,35 @@
+tree -- apt update -y
+     ---apt update tree
+-----------------------------------
+users storage : cat\etc\passwd
+group storage : cat\etc\group
+
+------------------------------------
+switch user : su username
+whoami
+------------------------------
+permissions :
+drwxr_xr_x   read:4
+             write : 2
+             execute : 1
+----------------------------
+chmod 700 kalyan (folder name)
+chown -R root : QA sai (user name )
+groupadd QA
+useradd praneetha 
+usermod -a -G QA abc (user)
+id pavan(user)
+echo kc --prints the same (answer will be kc)
+---------------------------------------------------------------
+ssh root@ip address
+---------------------------------------------------------------
+ls-la /ll
+clear
+mkdir p
+cd ..(one step back)
+cd (total back)
+cd p(to go to that folder
+touch p.p(to create a file inside folder)
+cat p.p(to check what is inside folder)
+cat >p.p (allows you to write something inside file )
+----------------------------------------------------------------------------------------------
